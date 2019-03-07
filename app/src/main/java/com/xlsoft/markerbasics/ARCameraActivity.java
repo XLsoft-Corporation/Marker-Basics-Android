@@ -1,6 +1,5 @@
-package eu.kudan.kudansamples;
+package com.xlsoft.markerbasics;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
@@ -10,19 +9,16 @@ import eu.kudan.kudan.ARActivity;
 import eu.kudan.kudan.ARAlphaVideoNode;
 import eu.kudan.kudan.ARImageNode;
 import eu.kudan.kudan.ARImageTrackable;
-import eu.kudan.kudan.ARImageTrackableListener;
 import eu.kudan.kudan.ARImageTracker;
 import eu.kudan.kudan.ARLightMaterial;
 import eu.kudan.kudan.ARMeshNode;
 import eu.kudan.kudan.ARModelImporter;
 import eu.kudan.kudan.ARModelNode;
 import eu.kudan.kudan.ARNode;
-import eu.kudan.kudan.ARRenderer;
 import eu.kudan.kudan.ARTexture2D;
 import eu.kudan.kudan.ARTextureMaterial;
 import eu.kudan.kudan.ARVideoNode;
 import eu.kudan.kudan.ARVideoTexture;
-import eu.kudan.kudan.ARView;
 
 public class ARCameraActivity extends ARActivity {
 
