@@ -4,11 +4,12 @@
 ### Original ###
 *.bak
 
+### C++ Libraries and Framework ###
+*.aar
+KudanAR.framework/
+
 
 ### Android ###
-## C++ Libraries
-*.aar
-
 # Built application files
 *.apk
 *.ap_
